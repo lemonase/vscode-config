@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Unless
+!.gitignore
+!README.md
+!extensions.txt
+!keybindings.json
+!settings.json
+!tasks.json
