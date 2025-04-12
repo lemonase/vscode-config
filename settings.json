@@ -81,6 +81,7 @@
   "terminal.integrated.drawBoldTextInBrightColors": true,
   "terminal.integrated.showExitAlert": false,
   "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.sendKeybindingsToShell": true,
 
   // Git Integration
   "git.autofetch": false,
@@ -96,7 +97,7 @@
     "editor.tabSize": 2
   },
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
@@ -195,7 +196,6 @@
   ],
 
   // SSH Extension Settings
-  "remote.SSH.remotePlatform": {},
 
   // Hex Editor Settings
   "hexeditor.columnWidth": 16,
@@ -207,9 +207,10 @@
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "telemetry.telemetryLevel": "off",
+  "telemetry.feedback.enabled": false,
   "intelephense.telemetry.enabled": false,
   "redhat.telemetry.enabled": false,
 
   // Changes
-  "workbench.colorTheme": "Tomorrow Night"
+  "workbench.colorTheme": "GitHub Dark Default"
 }
