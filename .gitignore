@@ -5,6 +5,7 @@
 !.gitignore
 !README.md
 !extensions.txt
-!keybindings.json
-!settings.json
-!tasks.json
+
+!keybindings.default.json
+!settings.default.json
+!tasks.default.json

@@ -41,11 +41,20 @@ Clone this repo and moves it to the default settings location [here](https://cod
 (dependent on platform).
 
 ```shell
+# clone repo
 git clone https://github.com/lemonase/vscode-config.git
+
+# move to proper folder and delete repo
 mv vscode-config/.git User/
 rm -r vscode-config
+
+# checkout/restore files
 cd User/
 git checkout .
+
+# copy defaults (that way local customizations are not tracked)
+cp keybindings.default.json keybindings.json
+cp settings.default.json settings.json
 ```
 
 ## Why not the built in "Settings Sync"?
