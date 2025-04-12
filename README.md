@@ -37,8 +37,18 @@ with open("extensions.txt") as f:
 
 ## Install Settings
 
-Clone this repo and moves it to the default settings location [here](https://code.visualstudio.com/docs/configure/settings#_settings-file-locations)
-(dependent on platform).
+Find the default settings location for VS Code [here](https://code.visualstudio.com/docs/configure/settings#_settings-file-locations)
+(dependent on platform). Usually under the `User` directory.
+
+- Windows:
+  - `%APPDATA%\Code\User\settings.json`
+- macOS:
+  - `$HOME/Library/Application\ Support/Code/User/settings.json`
+- Linux:
+  - `$HOME/.config/Code/User/settings.json`
+
+Clone this directory and then copy the `.git`, `keybindings.json` and `settings.json`
+to the `User` directory.
 
 ```shell
 # clone repo
