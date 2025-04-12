@@ -9,6 +9,7 @@
   "workbench.editor.enablePreviewFromCodeNavigation": true,
   "workbench.editor.enablePreviewFromQuickOpen": true,
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.location": "top",
   "workbench.editor.defaultBinaryEditor": "hexEditor.hexedit",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook",
@@ -181,21 +182,31 @@
     }
   ],
 
-  // Git Settings Sync Extension
-  // "sync.gist": "969006612f0676f919c75d3a1808f074",
-  // "sync.forceUpload": true,
-  // Settings Sync (GitHub)
-  "settingsSync.ignoredExtensions": ["ms-vscode-remote.remote-wsl"],
-  "settingsSync.ignoredSettings": [
-    "terminal.integrated.shell.windows",
-    "python.defaultInterpreterPath",
-    "editor.fontFamily",
-    "editor.fontSize",
-    "terminal.integrated.fontSize",
-    "workbench.colorTheme"
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": false,
+  "todo-tree.general.showActivityBarBadge": true,
+  "todo-tree.highlights.useColourScheme": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "[~]",
+    "[.]"
   ],
-
-  // SSH Extension Settings
+  "todo-tree.highlights.backgroundColourScheme": [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "green",
+    "indigo",
+    "blue",
+    "blue"
+  ],
 
   // Hex Editor Settings
   "hexeditor.columnWidth": 16,
