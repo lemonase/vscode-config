@@ -5,6 +5,7 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.enableExperiments": false,
   "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultKeybindings": true,
   "workbench.editor.enablePreview": true,
   "workbench.editor.enablePreviewFromCodeNavigation": true,
   "workbench.editor.enablePreviewFromQuickOpen": true,
@@ -191,21 +192,33 @@
     "FIXME",
     "TODO",
     "XXX",
+    "DONE",
     "[ ]",
     "[x]",
     "[~]",
     "[.]"
   ],
   "todo-tree.highlights.backgroundColourScheme": [
-    "red",
+    // BUG
+    "firebrick",
+    // HACK
     "orange",
+    // FIXME
     "yellow",
-    "green",
-    "blue",
-    "green",
-    "indigo",
-    "blue",
-    "blue"
+    // TODO
+    "firebrick",
+    // XXX
+    "cornflowerblue",
+    // DONE
+    "71bd78",
+    /// [ ]
+    "firebrick",
+    /// [x]
+    "71bd78",
+    /// [~]
+    "cornflowerblue",
+    /// [.]
+    "cornflowerblue"
   ],
 
   // Hex Editor Settings
