@@ -5,15 +5,16 @@ davidanson.vscode-markdownlint
 dbaeumer.vscode-eslint
 docker.docker
 donjayamanne.githistory
-dsznajder.es7-react-js-snippets
 editorconfig.editorconfig
 esbenp.prettier-vscode
+foam.foam-vscode
 geequlim.godot-tools
 github.github-vscode-theme
 golang.go
 grapecity.gc-excelviewer
 graphql.vscode-graphql
 graphql.vscode-graphql-syntax
+gruntfuggly.todo-tree
 mgmcdermott.vscode-language-babel
 mhutchie.git-graph
 ms-azuretools.vscode-docker
@@ -41,5 +42,4 @@ teabyii.ayu
 tootone.org-mode
 vscodevim.vim
 wholroyd.jinja
-yzane.markdown-pdf
 yzhang.markdown-all-in-one
