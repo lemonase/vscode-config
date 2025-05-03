@@ -19,6 +19,8 @@
 
   // Window
   "window.menuBarVisibility": "classic",
+  "window.titleSeparator": " : ",
+  "window.commandCenter": false,
 
   // Files
   "files.insertFinalNewline": true,
@@ -87,20 +89,21 @@
 
   // Git Integration
   "git.autofetch": false,
-  "git.autorefresh": false,
-  "git.confirmSync": false,
-  "git.showInlineOpenFileAction": false,
+  "git.autorefresh": true,
+  "git.confirmSync": true,
+  "git.allowForcePush": true,
+  "git.enableStatusBarSync": true,
+  "git.showInlineOpenFileAction": true,
+  "git.enableSmartCommit": true,
+  "git.followTagsWhenSync": true,
+  "git.mergeEditor": true,
+  "git.pullBeforeCheckout": true,
+  "git.showPushSuccessNotification": true,
+  "git.timeline.showUncommitted": true
 
   // ------------------------
   // Language Editor/Formatting Settings
   // ------------------------
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features",
-    "editor.tabSize": 2
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
@@ -110,6 +113,13 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
@@ -117,8 +127,8 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // Emmet Settings
   "emmet.includeLanguages": {
@@ -235,6 +245,6 @@
   "intelephense.telemetry.enabled": false,
   "redhat.telemetry.enabled": false,
 
-  // Editor Changes
-  "workbench.colorTheme": "GitHub Dark Default"
+  // Editor Changes from GUI
+  "workbench.colorTheme": "GitHub Dark Default",
 }

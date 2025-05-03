@@ -9,6 +9,8 @@ editorconfig.editorconfig
 esbenp.prettier-vscode
 foam.foam-vscode
 geequlim.godot-tools
+github.copilot
+github.copilot-chat
 github.github-vscode-theme
 golang.go
 grapecity.gc-excelviewer
@@ -30,7 +32,6 @@ ms-vscode.theme-tomorrowkit
 ms-vsliveshare.vsliveshare
 oliversturm.fix-json
 pkief.material-icon-theme
-redhat.ansible
 redhat.vscode-yaml
 ritwickdey.liveserver
 rust-lang.rust-analyzer
