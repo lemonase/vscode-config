@@ -99,7 +99,7 @@
   "git.mergeEditor": true,
   "git.pullBeforeCheckout": true,
   "git.showPushSuccessNotification": true,
-  "git.timeline.showUncommitted": true
+  "git.timeline.showUncommitted": true,
 
   // ------------------------
   // Language Editor/Formatting Settings
@@ -246,5 +246,5 @@
   "redhat.telemetry.enabled": false,
 
   // Editor Changes from GUI
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "GitHub Dark Default"
 }
