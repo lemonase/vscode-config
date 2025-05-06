@@ -1,10 +1,13 @@
 aaron-bond.better-comments
 adamcaviness.theme-monokai-dark-soda
+bschulte.love
 budparr.language-hugo-vscode
+cstrap.python-snippets
 davidanson.vscode-markdownlint
 dbaeumer.vscode-eslint
 docker.docker
 donjayamanne.githistory
+dsznajder.es7-react-js-snippets
 editorconfig.editorconfig
 esbenp.prettier-vscode
 foam.foam-vscode
@@ -17,6 +20,7 @@ grapecity.gc-excelviewer
 graphql.vscode-graphql
 graphql.vscode-graphql-syntax
 gruntfuggly.todo-tree
+gulajavaministudio.mayukaithemevsc
 mgmcdermott.vscode-language-babel
 mhutchie.git-graph
 ms-azuretools.vscode-docker
@@ -35,9 +39,11 @@ pkief.material-icon-theme
 redhat.vscode-yaml
 ritwickdey.liveserver
 rust-lang.rust-analyzer
+sdras.night-owl
 shopify.ruby-lsp
 sidneys1.gitconfig
 streetsidesoftware.code-spell-checker
+sumneko.lua
 tamasfe.even-better-toml
 teabyii.ayu
 tootone.org-mode
