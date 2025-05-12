@@ -71,6 +71,8 @@ with open("extensions.txt") as f:
         subprocess.run(["code", "--install-extension", ext.strip()], shell=True)
 ```
 
+- [ ] TODO: Implement extension installer code snippet as python script
+
 ## Why not the built in "Settings Sync"?
 
 [Settings Sync](https://code.visualstudio.com/docs/configure/settings-sync) in
